@@ -15,6 +15,10 @@ p.text-center{
 .col-sm-12 h1{
     text-align: center;
 }
+.col-sm-6 p{
+    font-size: 15px;
+    text-align: center;
+}
 a,
 button {
     transition: all .3s ease-in-out;
@@ -52,7 +56,8 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    margin: auto;
+    padding: 100px;
 }
 
 .bloc-md {
@@ -338,6 +343,7 @@ a:hover {
 
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
+    text-decoration: none;
 }
 
 .nav > li a:hover,
@@ -516,6 +522,9 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+    height: 20px;
+    width: 100%;
+    margin-bottom: 10px;
 }
 
 .scrollToTop {
@@ -706,6 +715,7 @@ p {
     padding: 12px 28px 12px 28px;
     font-size: 16px;
     font-weight: 700;
+    width: 100%;
 }
 
 .social {
