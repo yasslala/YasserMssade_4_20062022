@@ -12,6 +12,9 @@ body {
 p.text-center{
     font-size: 17px;
 }
+.col-sm-12 h1{
+    text-align: center;
+}
 a,
 button {
     transition: all .3s ease-in-out;
@@ -36,7 +39,6 @@ a:hover {
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
-    padding: 0 50px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -325,6 +327,7 @@ a:hover {
     margin-right: -16px;
     float: right;
     z-index: 1;
+
 }
 
 .nav > li {
@@ -686,6 +689,7 @@ p {
 }
 
 .tight-width-whitespace {
+    text-align: center;
     max-width: 600px;
     margin: auto auto auto auto;
 }
