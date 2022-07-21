@@ -22,14 +22,8 @@ p.text-center{
 .btn-center{
     width: 100%;
 }
-.foot-center{
-    display: flex;
-    justify-content: center;
-    padding-left: auto;
-    padding-right: auto;
-}
-.foot-text-center{
-    text-align: center;
+.bloc-center{
+    width: 100%;
 }
 a,
 button {
@@ -162,7 +156,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color:rgba(255, 255, 255, .6);
 }
 
 .d-bloc .a-btn:hover,
@@ -807,7 +801,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #8E3853;
+    background-color: #C55400;
 }
 
 .tc-white {
@@ -816,21 +810,21 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #8E3853;
-    color: #FFFFFF!important;
+    background: #C55400;
+    color: #ffffff!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #793853!important;
-    color: #FFFFFF!important;
+    background: #C54400!important;
+    color: #ffffff!important;
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: #ffffff!important;
 }
 
 .ltc-white:hover {
-    color: #cccccc!important;
+    color: #ffffff!important;
 }
 
 .ltc-atomic-tangerine {
