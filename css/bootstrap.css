@@ -1417,8 +1417,8 @@ a:hover {
 }
 
 a:focus {
-    outline: thin dotted;
-    outline: 5px auto -webkit-focus-ring-color;
+    outline: solid;
+    outline: 3px auto -webkit-focus-ring-color;
     outline-offset: -2px
 }
 
@@ -3682,8 +3682,8 @@ textarea.input-lg {
 .btn:active.focus,
 .btn:active:focus,
 .btn:focus {
-    outline: thin dotted;
-    outline: 5px auto -webkit-focus-ring-color;
+    outline: dashed;
+    outline: 3px auto webkit-focus-ring-color;
     outline-offset: -2px
 }
 
