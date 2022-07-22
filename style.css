@@ -533,7 +533,6 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
-    height: 20px;
     width: 100%;
     margin-bottom: 10px;
 }
@@ -807,6 +806,7 @@ h4 {
 .tc-white {
     color: #ffffff!important;
     font-weight: bold;
+    position: relative;
 }
 
 .btn-atomic-tangerine {
