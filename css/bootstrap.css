@@ -3683,7 +3683,7 @@ textarea.input-lg {
 .btn:active:focus,
 .btn:focus {
     outline: dashed;
-    outline: 3px auto;
+    outline: 3px auto -webkit-focus-ring-color;
     outline-offset: -2px
 }
 
